@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(205, 198, 188, 255);
+  margin-bottom: 30px;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  margin-right: 100px;
+}
+
+header ul li {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size:17px;
+}
+
+header ul li a:link {
+    text-decoration: none;
+}
+
+.logo {
+  max-height: 80px;
+  width: 150px;
+  margin-left: 100px;
+}

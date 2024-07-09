@@ -1,0 +1,93 @@
+.image-slider {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.insert-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.insert-image h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-url {
+  height: 30px;
+  width:400px;
+  background:lightgrey;
+}
+
+.listOfImages {
+  height: 300px;
+  width: 300px;
+  background-color: #fff4dd;
+  border-style: inset;
+}
+
+.listOfImages ul {
+  margin-left: 20px;
+}
+
+.slider {
+  margin-top: 120px;
+  height: 250px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.slider button {
+  height: 65px;
+  width: 65px;
+  border: none;
+  outline: none;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 999;
+  position: relative;
+}
+
+.slider button .arrow {
+  border: solid #fff;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 10px;
+  transition: transform 0.3s ease-out;
+  outline: none;
+}
+
+.slider #left-button {
+  left: 65px;
+}
+
+.slider #right-button {
+  right: 65px;
+}
+
+.slider #right-button .arrow {
+  transform: rotate(-45deg);
+}
+
+.slider #left-button .arrow {
+  transform: rotate(135deg);
+}
+
+.images img {
+  height: 300px;
+  width: 600px;
+  border: 8px solid black;
+  border-radius: 5px;
+  display: block;
+}
+
+.box{
+  height: 300px;
+  width: 600px;
+  border: 8px solid black;
+  display:block;
+}

@@ -1,0 +1,99 @@
+.toDoList-content {
+  margin: 0 300px;
+  margin-bottom: 150px;
+  
+}
+.addItems h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.addItems-actions {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.addItems-actions input {
+  width: 330px;
+  height: 40px;
+  font-size: 17px;
+  background-color: lightgray;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.addButton {
+  width: 70px;
+  cursor: pointer;
+  background-color: darkred;
+  font-size: 15px;
+  font-weight: 700;
+  color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: block;
+}
+
+.editButton2 {
+  width: 70px;
+  cursor: pointer;
+  background-color: darkred;
+  font-size: 15px;
+  font-weight: 700;
+  color: whitesmoke;
+  border: 3px solid black;
+  border-radius: 8px;
+  display: none;
+}
+
+.addItems-actions button:hover {
+  width: 70px;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.taskDiv {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  border-radius: 20px;
+  height: 350px;
+  margin: 0 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+.single-task {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.task-actions button {
+  height: 30px;
+  margin-right: 15px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.removeButton {
+  background-color: darkred;
+  font-weight: 700;
+}
+.editButton {
+  background-color: rgba(78, 58, 189, 0.233);
+}
