@@ -1,72 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My website</title>
-    <link rel ="stylesheet" href = "./style/index.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
     <header>
-        <img class="logo" src = "img/logo.png">
-        <ul>
-            <li><a href="#toDoList" style="color:white"><strong>ToDoList</strong></a></li>
-            <li><a href="#slideShow" style="color:white"><strong>Slide Show</strong></a></li>
-            <li><a href="#" style="color:white"><strong>Info</a></strong></li>
-            <li><a href="#" style="color:white"><strong>Nemoj Stisnit</strong></a></li>
-        </ul>
+      <img class="logo" src="img/logo.png" />
+      <ul>
+        <li>
+          <a href="#" style="color: black"><strong>ToDoList</strong></a>
+        </li>
+        <li>
+          <a href="#slideShow" style="color: black"
+            ><strong>Slide Show</strong></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.silvergames.com/en/dont-press-the-button"
+            target="_blank"
+            style="color: black"
+            ><strong>Nemoj Stisnit</strong></a
+          >
+        </li>
+      </ul>
     </header>
 
     <div id="toDoList" class="toDoList-content">
-
-        <div class = "addItems">
-            <h3>Add items</h3>
-            <div class="addItems-actions">
-                <input type="text" class="inputTasks">
-                <button class="addButton">Add</button>
-                <button class="editButton2">Edit</button>
-            </div>
-
+      <div class="addItems">
+        <h3>Add tasks to the list below</h3>
+        <div class="addItems-actions">
+          <input type="text" class="inputTasks" />
+          <button class="addButton">Add</button>
+          <button class="editButton2">Edit</button>
         </div>
+      </div>
 
-        <div class ="taskDiv">
-            <div class="taskList">
-
-            </div>
-        </div>
-    
-
+      <div class="taskDiv">
+        <div class="taskList"></div>
+      </div>
     </div>
 
-    <div id= "slideShow" class="image-slider">
-        <div class="insert-image">
-            <h2>Insert image using URL</h2>
-            <input class = "input-url" type="text">
-            <div class="listOfImages">
-                <ul>
+    <hr />
 
-                </ul>
-            </div>
+    <div id="slideShow" class="image-slider">
+      <div class="insert-image">
+        <h2>Insert image using URL</h2>
+        <input class="input-url" type="text" />
+        <div class="listOfImages">
+          <ul></ul>
         </div>
-        <div class="slider">
-            <button id="left-button">
-                <i class="arrow"></i>
-            </button>
-            <div class="images">
-                <!-- <img class="firstImage" src="./img/insert-image.png"> -->
-                 <div class="box">
-
-                 </div>
-            </div>
-            <button id="right-button">
-                <i class="arrow"></i>
-            </button>
+      </div>
+      <div class="slider">
+        <button id="left-button">
+          <i class="arrow"></i>
+        </button>
+        <div class="images">
+          <div class="box"></div>
         </div>
-
-
+        <button id="right-button">
+          <i class="arrow"></i>
+        </button>
+      </div>
     </div>
-    
+
     <script src="toDoList.js"></script>
     <script src="pictureSlideShow.js"></script>
-</body>
+  </body>
 </html>

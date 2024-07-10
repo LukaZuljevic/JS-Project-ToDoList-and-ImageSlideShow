@@ -5,6 +5,10 @@
 }
 body {
   background-color: rgb(230, 206, 182);
-
   background-repeat: no-repeat;
+  padding-top: 150px;
+}
+hr {
+  height: 2.5px;
+  background-color: black;
 }
